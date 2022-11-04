@@ -8,6 +8,7 @@ public class Array1 {
 		//int ch = sc.nextInt();
 		/*int arr[] = new int[6];
 		
+		
 		arr[0] =33;
 		arr[1] =45;
 		arr[2] =65;
