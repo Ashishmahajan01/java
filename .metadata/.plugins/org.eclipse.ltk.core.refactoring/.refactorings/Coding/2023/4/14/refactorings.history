@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Array.KaDANE.java&apos; to &apos;Kadane.java&apos;&#x0D;&#x0A;- Original project: &apos;Coding&apos;&#x0D;&#x0A;- Original element: &apos;Array.KaDANE.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Array.Kadane.java&apos;" description="Rename compilation unit &apos;KaDANE.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;Array{KaDANE.java" name="Kadane.java" references="false" stamp="1680921709900" version="1.0"/>
+</session>
