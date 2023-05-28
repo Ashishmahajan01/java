@@ -1,4 +1,221 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 19 May 2023 13:07:18 GMT</lastBuildDate><item><title><![CDATA[Spring Boot 3.1.0 available now]]></title><link>https://spring.io/blog/2023/05/18/spring-boot-3-1-0-available-now</link><guid isPermaLink="true">https://spring.io/blog/2023/05/18/spring-boot-3-1-0-available-now</guid><dc:creator><![CDATA[Scott Frederick]]></dc:creator><pubDate>Thu, 18 May 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the Spring Boot team and everyone that has contributed, I am pleased to announce that Spring Boot 3.1.0 has been released and is available from Maven Central.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 25 May 2023 15:10:49 GMT</lastBuildDate><item><title><![CDATA[Spring Security Kerberos 2.0.0-RC2 available now]]></title><link>https://spring.io/blog/2023/05/25/spring-security-kerberos-2-0-0-rc2-available-now</link><guid isPermaLink="true">https://spring.io/blog/2023/05/25/spring-security-kerberos-2-0-0-rc2-available-now</guid><dc:creator><![CDATA[Janne Valkealahti]]></dc:creator><pubDate>Thu, 25 May 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I&apos;m happy to announce that a Spring Security Kerberos &lt;code&gt;2.0.0-RC2&lt;/code&gt; milestone is now available via &lt;a href=&quot;https://repo.spring.io/milestone&quot;&gt;https://repo.spring.io/milestone&lt;/a&gt;. This release candidate were created because project upgraded to use recently released &lt;code&gt;spring-security&lt;/code&gt; &lt;code&gt;6.1.0&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://projects.spring.io/spring-security-kerberos/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-security-kerberos&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-security-kerberos/issues&quot;&gt;Issues&lt;/a&gt; | &lt;a href=&quot;https://docs.spring.io/spring-security-kerberos/reference/&quot;&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Authorization Server is on Spring Initializr!]]></title><link>https://spring.io/blog/2023/05/24/spring-authorization-server-is-on-spring-initializr</link><guid isPermaLink="true">https://spring.io/blog/2023/05/24/spring-authorization-server-is-on-spring-initializr</guid><dc:creator><![CDATA[Steve Riesenberg]]></dc:creator><pubDate>Wed, 24 May 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Today, I&apos;m excited to announce that you have a new superpower: creating applications with &lt;a href=&quot;https://spring.io/projects/spring-authorization-server&quot;&gt;Spring Authorization Server&lt;/a&gt; on &lt;a href=&quot;https://start.spring.io&quot;&gt;Spring Initializr&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;That&apos;s right, it&apos;s time to begin your OAuth2 journey and become the hero you always knew you could be! In this post, I&apos;ll explain how you can get the most from your new superpower and where to go to learn more.&lt;/p&gt;
+&lt;h2&gt;What is Spring Authorization Server?&lt;/h2&gt;
+&lt;p&gt;Spring Authorization Server is an open-source framework built on top of Spring Security that allows you to create your own standards-based OAuth2 Authorization Server or OpenID Connect Provider. It implements many of the protocol endpoints available in the various OAuth2 and OIDC-related specifications, allowing you to focus more on your applications and users and less on flows and specifications. Because it sits atop Spring Security, it can also be used to create an authentication hub for adapting other authentication protocols to OAuth2.&lt;/p&gt;
+&lt;p&gt;You can learn more about Spring Authorization Server in the &lt;a href=&quot;https://docs.spring.io/spring-authorization-server/docs/current/reference/html/overview.html&quot;&gt;Overview&lt;/a&gt; on the &lt;a href=&quot;https://docs.spring.io/spring-authorization-server/docs/current/reference/html/index.html&quot;&gt;Reference Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;The journey to save the world from an evil creature attempting to extinguish all life has to start somewhere, and your journey to becoming an OAuth2 hero is no different! To get started, download this &lt;a href=&quot;https://start.spring.io/#!type=gradle-project&amp;#x26;language=java&amp;#x26;packaging=jar&amp;#x26;groupId=io.spring&amp;#x26;artifactId=demo-authorizationserver&amp;#x26;name=Demo%20Authorization%20Server&amp;#x26;description=Demo%20authorization%20server%20using%20Spring%20Boot%20and%20Spring%20Authorization%20Server.&amp;#x26;packageName=io.spring&amp;#x26;dependencies=oauth2-authorization-server&quot;&gt;sample application&lt;/a&gt; or head to &lt;a href=&quot;https://start.spring.io&quot;&gt;start.spring.io&lt;/a&gt; and add the OAuth2 Authorization Server dependency to your project.&lt;/p&gt;
+&lt;p&gt;Then, open the project in your favorite IDE and add the following to &lt;code&gt;application.properties&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-properties&quot;&gt;spring.security.oauth2.authorizationserver.client.client-1.registration.client-id=admin-client
+# the client secret is &quot;secret&quot; (without quotes)
+spring.security.oauth2.authorizationserver.client.client-1.registration.client-secret={bcrypt}$2a$10$jdJGhzsiIqYFpjJiYWMl/eKDOd8vdyQis2aynmFN0dgJ53XvpzzwC
+spring.security.oauth2.authorizationserver.client.client-1.registration.client-authentication-methods=client_secret_basic
+spring.security.oauth2.authorizationserver.client.client-1.registration.authorization-grant-types=client_credentials
+spring.security.oauth2.authorizationserver.client.client-1.registration.scopes=user.read,user.write
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Alternatively, you can rename &lt;code&gt;application.properties&lt;/code&gt; to &lt;code&gt;application.yml&lt;/code&gt; and add the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;spring:
+  security:
+    oauth2:
+      authorizationserver:
+        client:
+          client-1:
+            registration:
+              client-id: &quot;admin-client&quot;
+              # the client secret is &quot;secret&quot; (without quotes)
+              client-secret: &quot;{bcrypt}$2a$10$jdJGhzsiIqYFpjJiYWMl/eKDOd8vdyQis2aynmFN0dgJ53XvpzzwC&quot;
+              client-authentication-methods: &quot;client_secret_basic&quot;
+              authorization-grant-types: &quot;client_credentials&quot;
+              scopes: &quot;user.read,user.write&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To start the application, run the following command:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;./gradlew bootRun
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This gives you an application with the following features out of the box:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A servlet-based web application secured with Spring Security&lt;/li&gt;
+&lt;li&gt;A standards-compliant authorization server with a Token Endpoint for obtaining an OAuth2 Access Token (JWT)&lt;/li&gt;
+&lt;li&gt;A generated in-memory RSA keypair that will be used to sign a JWT&lt;/li&gt;
+&lt;li&gt;A JWK-Set Endpoint&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; for obtaining the generated public key&lt;/li&gt;
+&lt;li&gt;An OAuth2 Authorization Server Metadata Endpoint&lt;sup id=&quot;fnref-2&quot;&gt;&lt;a href=&quot;#fn-2&quot; class=&quot;footnote-ref&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; for discovering authorization server configuration&lt;/li&gt;
+&lt;li&gt;An OpenID Connect Provider Configuration Endpoint&lt;sup id=&quot;fnref-3&quot;&gt;&lt;a href=&quot;#fn-3&quot; class=&quot;footnote-ref&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; for discovering OIDC provider configuration&lt;/li&gt;
+&lt;li&gt;An OAuth2 Introspection Endpoint for using opaque tokens or getting info about a token (including a JWT)&lt;/li&gt;
+&lt;li&gt;An OAuth2 Revocation Endpoint for revoking refresh tokens (or opaque access tokens)&lt;/li&gt;
+&lt;li&gt;A single in-memory client (with &lt;a href=&quot;https://docs.spring.io/spring-boot/docs/current/reference/html/cli.html#cli.using-the-cli&quot;&gt;pre-hashed secret&lt;/a&gt;) registered with the authorization server to support the Client Credentials flow&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Of course, there&apos;s more than this but you can check the &lt;a href=&quot;https://docs.spring.io/spring-authorization-server/docs/current/reference/html/overview.html#feature-list&quot;&gt;feature list&lt;/a&gt; for the complete list.&lt;/p&gt;
+&lt;h2&gt;Getting an Access Token&lt;/h2&gt;
+&lt;p&gt;So what can we do with this? Using the above example, we&apos;ll start with the Client Credentials flow which is the easiest to understand. I&apos;ll use &lt;a href=&quot;https://httpie.io/cli&quot;&gt;HTTPie&lt;/a&gt; on the command line to demonstrate, and you can follow along at home (or work).&lt;/p&gt;
+&lt;p&gt;Run the following command:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;http -f POST :8080/oauth2/token grant_type=client_credentials scope=&apos;user.read&apos; -a admin-client:secret
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This produces a response similar to the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{
+    &quot;access_token&quot;: &quot;eyJraWQiOiJhMWZjM2JhOC0zY2IwLTRkZjAtYTQwNS03ZDhhY2YxYTY4NGIiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhZG1pbi1jbGllbnQiLCJhdWQiOiJhZG1pbi1jbGllbnQiLCJuYmYiOjE2ODQ1MjYzOTgsInNjb3BlIjpbInVzZXIucmVhZCJdLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAiLCJleHAiOjE2ODQ1MjY2OTgsImlhdCI6MTY4NDUyNjM5OH0.sHDGoQGDpdBuhvdiIpFeeCtTUeU860FBeV23rS6Zqb8tjq_Pytj_Y4Xl6pBB2R5rTAZdMg0cwLvICVYBz-x-hGz2UbHFtYGmo24byb3iKGqBb2BjtY5mMuYQOdnW_PgUVV4vtElhTYkkN_uET4CZ3zxIhgPEc2Yvtt0-d2lGwXzkDiHb_US1zDSUO36nqs4cesMD-yzy5tVmr1e2c6Klojyv6nFN1edfTn7Ci5GvEeB4lDnQdm3ZJr4fyxSiSrq7T34ghj6fMqYn_-lazpoc-wWPB5I35NM0TkUyDw2e_XobqIm6oXG0tBDujL2SK6P05n5MDKkGhgsQlT_ER9gmqA&quot;,
+    &quot;expires_in&quot;: 299,
+    &quot;scope&quot;: &quot;user.read&quot;,
+    &quot;token_type&quot;: &quot;Bearer&quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;access_token&lt;/code&gt; in the response is a signed JWT that can be used to make an authenticated request to an OAuth2 resource server with the &lt;code&gt;user.read&lt;/code&gt; scope to access protected resources. In other words, with a Spring Boot app and just a few properties, we are able to easily mint signed JWTs and begin securing applications with OAuth2. Of course, it&apos;s equally trivial to set up a resource server with Spring Security, but I&apos;ll leave that up to you as a test of the superpowers you didn&apos;t know you had.&lt;/p&gt;
+&lt;h2&gt;Introspecting an Access Token&lt;/h2&gt;
+&lt;p&gt;To keep things simple, let&apos;s test this token out using the Introspection Endpoint.&lt;/p&gt;
+&lt;p&gt;NOTE: Keep in mind that the token will expire after 5 minutes.&lt;/p&gt;
+&lt;p&gt;Run the following commands, making sure to paste the actual &lt;code&gt;access_token&lt;/code&gt; in place of the example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;export TOKEN=eyJraW...
+http -f POST :8080/oauth2/introspect token=$TOKEN -a admin-client:secret
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This produces a response similar to the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{
+    &quot;active&quot;: true,
+    &quot;aud&quot;: [
+        &quot;admin-client&quot;
+    ],
+    &quot;client_id&quot;: &quot;admin-client&quot;,
+    &quot;exp&quot;: 1684526698,
+    &quot;iat&quot;: 1684526398,
+    &quot;iss&quot;: &quot;http://localhost:8080&quot;,
+    &quot;nbf&quot;: 1684526398,
+    &quot;scope&quot;: &quot;user.read&quot;,
+    &quot;sub&quot;: &quot;admin-client&quot;,
+    &quot;token_type&quot;: &quot;Bearer&quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If instead you see this response:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{
+    &quot;active&quot;: false
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;then the token likely expired.&lt;/p&gt;
+&lt;p&gt;If you&apos;d like to dive a little deeper and explore what&apos;s happening, you can enable trace logging to get additional debugging details. You can also shorten the expiration time of the token to something extremely short, like 30 seconds, to make it easier to get an expired token.&lt;/p&gt;
+&lt;p&gt;Add the following to your &lt;code&gt;application.properties&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-properties&quot;&gt;logging.level.org.springframework.security=trace
+spring.security.oauth2.authorizationserver.client.client-1.token.access-token-time-to-live=30s
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Or if you&apos;re using &lt;code&gt;application.yml&lt;/code&gt;, add the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;logging:
+  level:
+    org.springframework.security: trace
+
+spring:
+  security:
+    oauth2:
+      authorizationserver:
+        client:
+          client-1:
+            registration:
+              ...
+            token:
+              access-token-time-to-live: 30s
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then restart the application, and try the above steps again. After making the introspection request, you will see lines like:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;FilterChainProxy : Trying to match request against DefaultSecurityFilterChain [...] (1/2)
+FilterChainProxy : Securing POST /oauth2/introspect
+FilterChainProxy : Invoking DisableEncodeUrlFilter (1/25)
+...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;There are two interesting things happening. Several lines later in the logs, you will see output like the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;...
+FilterChainProxy                   : Invoking OAuth2ClientAuthenticationFilter (14/25)
+ProviderManager                    : Authenticating request with JwtClientAssertionAuthenticationProvider (1/18)
+ProviderManager                    : Authenticating request with ClientSecretAuthenticationProvider (2/18)
+ClientSecretAuthenticationProvider : Retrieved registered client
+ClientSecretAuthenticationProvider : Validated client authentication parameters
+ClientSecretAuthenticationProvider : Authenticated client secret
+OAuth2ClientAuthenticationFilter   : Set SecurityContextHolder authentication to OAuth2ClientAuthenticationToken
+...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This tells us that the client (our own CLI) successfully authenticated with HTTP basic authentication via the &lt;code&gt;ClientSecretAuthenticationProvider&lt;/code&gt;. This is why we receive a &lt;code&gt;200 OK&lt;/code&gt; response, but it would be nice to confirm via the logs that the token introspection request was successful. Several lines later, you will see output like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;...
+FilterChainProxy                         : Invoking OAuth2TokenIntrospectionEndpointFilter (22/25)
+ProviderManager                          : Authenticating request with OAuth2TokenIntrospectionAuthenticationProvider (1/18)
+TokenIntrospectionAuthenticationProvider : Retrieved authorization with token
+TokenIntrospectionAuthenticationProvider : Did not introspect token since not active
+...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here we see the &lt;code&gt;OAuth2TokenIntrospectionAuthenticationProvider&lt;/code&gt; processing the request, but the token was not active. So, we can confirm that the request was successful and the token is expired.&lt;/p&gt;
+&lt;h2&gt;What&apos;s Next?&lt;/h2&gt;
+&lt;p&gt;We&apos;ve only scratched the surface of what you can do with your new superpower! The main thing I hope you take away is that you can now use Spring Initializr to create your own personal OAuth2 and OpenID Connect playground with Spring Authorization Server.&lt;/p&gt;
+&lt;p&gt;When you&apos;re ready, I&apos;d encourage you to read the &lt;a href=&quot;https://docs.spring.io/spring-authorization-server/docs/current/reference/html/index.html&quot;&gt;Reference Guide&lt;/a&gt; which contains detailed information on each and every feature and configuration option available. I&apos;d particularly recommend the guide &lt;a href=&quot;https://docs.spring.io/spring-authorization-server/docs/current/reference/html/guides/how-to-social-login.html&quot;&gt;How-to: Authenticate with Social Login&lt;/a&gt; as a great way to learn and explore.&lt;/p&gt;
+&lt;p&gt;Perhaps the best way to learn about OAuth2 and Spring Authorization Server is to build a sample OAuth2 architecture with (at least) three apps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;OAuth2 Client (using OpenID Connect)&lt;/li&gt;
+&lt;li&gt;OAuth2 Resource Server&lt;/li&gt;
+&lt;li&gt;OAuth2 Authorization Server&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Take a look at the available &lt;a href=&quot;https://github.com/spring-projects/spring-authorization-server/tree/main/samples&quot;&gt;samples&lt;/a&gt; which demonstrate all three of these apps, and try to build your own using nothing but Spring Initializr! Once you&apos;ve accomplished that, the future is really up to you!&lt;/p&gt;
+&lt;p&gt;Now go save the world!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-authorization-server&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-authorization-server/issues&quot;&gt;GitHub Issues&lt;/a&gt; | &lt;a href=&quot;https://app.zenhub.com/workspaces/authorization-server-5e8f3182b5e8f5841bfc4902/board?repos=248032165&quot;&gt;ZenHub Board&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&quot;fn-1&quot;&gt;The JWK-Set Endpoint is available at &lt;a href=&quot;http://localhost:8080/oauth2/jwks&quot;&gt;http://localhost:8080/oauth2/jwks&lt;/a&gt; when the application is running.&lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;?&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&quot;fn-2&quot;&gt;The OAuth2 Authorization Server Metadata Endpoint is available at &lt;a href=&quot;http://localhost:8080/.well-known/oauth-authorization-server&quot;&gt;http://localhost:8080/.well-known/oauth-authorization-server&lt;/a&gt; when the application is running.&lt;a href=&quot;#fnref-2&quot; class=&quot;footnote-backref&quot;&gt;?&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&quot;fn-3&quot;&gt;The OpenID Connect Provider Configuration Endpoint is available at &lt;a href=&quot;http://localhost:8080/.well-known/openid-configuration&quot;&gt;http://localhost:8080/.well-known/openid-configuration&lt;/a&gt; when the application is running.&lt;a href=&quot;#fnref-3&quot; class=&quot;footnote-backref&quot;&gt;?&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Unleash Spring apps in a flex environment with Azure Spring Apps Consumption and Dedicated plans]]></title><link>https://spring.io/blog/2023/05/23/unleash-spring-apps-in-a-flex-environment-with-azure-spring-apps-consumption</link><guid isPermaLink="true">https://spring.io/blog/2023/05/23/unleash-spring-apps-in-a-flex-environment-with-azure-spring-apps-consumption</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In March, we &lt;a href=&quot;https://techcommunity.microsoft.com/t5/apps-on-azure-blog/start-from-zero-and-scale-to-zero-azure-spring-apps-consumption/ba-p/3774825&quot;&gt;introduced&lt;/a&gt; the Consumption pricing plan for Azure Spring Apps allowing you to start from zero and scale to zero vCPU. Today, we are thrilled to announce the public preview of the Standard Dedicated plan! The Standard Dedicated plan provides a fully managed, dedicated environment for running Spring applications on Azure. This plan offers you customizable compute options (including memory-optimized), single tenancy, and high availability to help you achieve price predictability, cost savings, and performance for running Spring applications at scale.&lt;/p&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/joshlong/blog-images/master/spring-apps-in-flex-environment-consumption-and-dedicated-plans-2023-05-23/Picture1.jpg&quot;&gt;
+&lt;p&gt;In 2019, Microsoft and Pivotal (now VMware) announced Azure Spring Apps, a fully managed service for Spring apps. We set out to solve many of the common challenges enterprise developers face when running Spring apps at scale. The service manages dynamic scaling, security patching, out-of-the-box instrumentation for monitoring, and more so developers can focus on their apps. Since then, we’ve worked with many customers including &lt;a href=&quot;https://customers.microsoft.com/en-us/story/1475571259638279673-bosch-delivers-supply-chain-efficiencies-java-azure&quot;&gt;Bosch&lt;/a&gt;, &lt;a href=&quot;https://customers.microsoft.com/en-us/story/1481416780494356121-digital-realty-powers-global-portal-rest-apis-azure-spring-cloud&quot;&gt;Digital Realty&lt;/a&gt;, &lt;a href=&quot;https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-spring-apps-enterprise-tier-is-now-generally-available/ba-p/3418245&quot;&gt;FedEx&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=EfgiW6xJseM&quot;&gt;Kroger&lt;/a&gt;, &lt;a href=&quot;https://customers.microsoft.com/en-us/story/1449469395802117015-liantis-professional-services-scales-hr-affairs-applications-azure-spring-cloud&quot;&gt;Liantis&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=wdwjqXTFFZ0&amp;#x26;feature=youtu.be&quot;&gt;Morgan Stanley&lt;/a&gt;, &lt;a href=&quot;https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-spring-apps-enterprise-tier-is-now-generally-available/ba-p/3418245&quot;&gt;National Life&lt;/a&gt;, &lt;a href=&quot;https://customers.microsoft.com/en-us/story/1388620728739667057-raleys-uses-azure-spring-cloud-to-optimize-scale-and-drive-innovation&quot;&gt;Raley&apos;s&lt;/a&gt;, and &lt;a href=&quot;https://aka.ms/swiss-re&quot;&gt;Swiss Re&lt;/a&gt; to help them adopt the service.&lt;/p&gt;
+&lt;p&gt;We continue to listen to our customers, and here is what we have learned:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Many customers have apps that don&apos;t run constantly or experience bursts of traffic.&lt;/li&gt;
+&lt;li&gt;They have a diverse app hosting environment, with Azure Spring Apps hosting backend apps while containers or functions handle other types of apps. Managing network configuration across multiple hosting services can be overwhelming.&lt;/li&gt;
+&lt;li&gt;They need more flexibility in configuring vCPU and memory for their apps.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The new Dedicated plan guarantees single tenancy and specialized “compute” options including memory-optimized choices. It runs in the same environment as the serverless Azure Spring Apps Consumption plan. This allows any app from monolith to microservice-based that may have different resource requirements depending on app purpose or dev stack used to run in the same environment.   The environment provides an execution, isolation, and observability boundary that allows apps within it to easily call other apps in the environment, as well as provide a single place to view logs from all apps.&lt;/p&gt;
+&lt;p&gt;With the new Dedicated plan and the existing Consumption plan, you can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Get started with Consumption to scale from zero and scale to zero.&lt;/li&gt;
+&lt;li&gt;Use a Consumption plan for apps that do not run constantly or experience bursts of traffic.&lt;/li&gt;
+&lt;li&gt;Use a Dedicated plan for achieving single-tenancy, price predictability, and cost savings.&lt;/li&gt;
+&lt;li&gt;Mix and match Consumption and Dedicated for your apps in an Azure Spring Apps service instance.&lt;/li&gt;
+&lt;li&gt;Allocate as little as .1 vCPU to as much as 16 vCPUs and 0.1 GB to 128 GB for an app instance in the Consumption and Dedicated plans.&lt;/li&gt;
+&lt;li&gt;Simplify networking by placing Azure Spring Apps, Container Apps, and Functions in the same environment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Figure 1 and 2 shows how you can choose both Dedicated and Consumption plan as a combined option and create an app using the Azure Portal.&lt;/p&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/joshlong/blog-images/master/spring-apps-in-flex-environment-consumption-and-dedicated-plans-2023-05-23/Picture2.jpg&quot;&gt;
+Figure 1 – screenshot that shows how to create Azure Spring Apps Standard Consumption and Dedicated Plan using the Azure Portal
+&lt;img src=&quot;https://raw.githubusercontent.com/joshlong/blog-images/master/spring-apps-in-flex-environment-consumption-and-dedicated-plans-2023-05-23/Picture3.jpg&quot;&gt;
+Figure 2 – screenshot that shows how to create an app with Dedicated profile in an Azure Spring Apps Standard Consumption and Dedicated plan using the Azure Portal
+&lt;h1&gt;Deploy and manage Spring and polyglot applications&lt;/h1&gt;
+&lt;p&gt;Looking to deploy and manage Spring and polyglot applications with ease? You don’t have to look further than the Azure Spring Apps Consumption and Dedicated plans.&lt;/p&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/joshlong/blog-images/master/spring-apps-in-flex-environment-consumption-and-dedicated-plans-2023-05-23/Picture4.jpg&quot;&gt;
+&lt;p&gt;Azure Spring Apps Dedicated plan allows you to deploy Spring apps alongside other containerized apps built using any language, such as Java, NodeJS, Python, Go, and .NET Core, in the Azure Container Apps environment. Using this deployment option lets you simplify virtual network configuration and management by running all your apps in the same environment.&lt;/p&gt;
+&lt;p&gt;With Azure Spring Apps Consumption and Dedicated plans, you don’t need to worry about creating different subnets and network security groups for different types of applications - everything can run seamlessly in the same environment. Plus, our service is designed to make deployment and management as easy as possible, so you can focus on what matters most - building great apps.&lt;/p&gt;
+&lt;h1&gt;Focus on code -- at Microsoft Build conference&lt;/h1&gt;
+&lt;p&gt;Join us at the Microsoft Build conference and discover how Azure Spring Apps, with Consumption and Dedicated plans, empower you to focus on code rather than infrastructure when building a line of business systems or external facing systems. Additionally, explore how you can leverage diverse hosting services within the same Azure Container Apps environment to build other apps. Don&apos;t miss this opportunity to revolutionize your migration, development, and go-live processes! &lt;a href=&quot;https://aka.ms/focus-on-code&quot;&gt;aka.ms/focus-on-code&lt;/a&gt;&lt;/p&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/joshlong/blog-images/master/spring-apps-in-flex-environment-consumption-and-dedicated-plans-2023-05-23/Picture5.jpg&quot;&gt;
+&lt;h1&gt;Try today&lt;/h1&gt;
+&lt;p&gt;If you are a developer running Spring applications at scale, you know the challenges that come with it. That is why Microsoft and VMware teamed up in 2019 to create Azure Spring Apps - a solution designed to make your life easier.&lt;/p&gt;
+&lt;p&gt;With Azure Spring Apps, you can easily deploy your event-driven Spring applications to the cloud and get them up and running in no time. It is a golden path to production that simplifies the deployment process and optimizes your resource usage.&lt;/p&gt;
+&lt;p&gt;Want a flexible and cost-effective way to use Azure Spring Apps? Look no further than our Consumption and Dedicated pricing plans!&lt;/p&gt;
+&lt;p&gt;And the best part? We&apos;re offering &lt;a href=&quot;https://techcommunity.microsoft.com/t5/apps-on-azure-blog/price-reduction-azure-spring-apps-does-more-costs-less/ba-p/3614058&quot;&gt;FREE monthly grants&lt;/a&gt; on all tiers - 50 vCPU hours and 100 memory GB hours per tier*. This is the number of FREE hours you get BEFORE any usage is billed, giving you a chance to test out the service without any financial charges.&lt;/p&gt;
+&lt;p&gt;So why wait? Take advantage of our FREE monthly grants and deploy &lt;a href=&quot;https://learn.microsoft.com/en-us/azure/spring-apps/quickstart-deploy-event-driven-app-standard-consumption?pivots=sc-consumption-plan&quot;&gt;your first event-driven&lt;/a&gt; Spring app to Azure Spring Apps today! &lt;a href=&quot;https://azure.microsoft.com/en-us/pricing/details/spring-apps/&quot;&gt;With our Consumption and Dedicated pricing&lt;/a&gt;  plans, you can optimize your resource usage and save money on your cloud computing costs.&lt;/p&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/joshlong/blog-images/master/spring-apps-in-flex-environment-consumption-and-dedicated-plans-2023-05-23/Picture6.jpg&quot;&gt;
+&lt;p&gt;The Azure Spring Apps Standard Dedicated plan public preview is now available. We’re committed to bringing you the latest and greatest innovation for cloud services. We’re working on bringing the same innovation to Azure Spring Apps Enterprise, so stay tuned for even more great things to come.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[This Week in Spring - May 23rd, 2023]]></title><link>https://spring.io/blog/2023/05/23/this-week-in-spring-may-23rd-2023</link><guid isPermaLink="true">https://spring.io/blog/2023/05/23/this-week-in-spring-may-23rd-2023</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! It&apos;s May 23rd and, famously, nothing major has happened in the last week OH WAIT WE RELEASED SPRING BOOT 3.1! Have you checked it out yet? It&apos;s dope. I did a &lt;em&gt;Spring Tips&lt;/em&gt; installment &lt;a href=&quot;https://spring.io/blog/2023/05/18/spring-tips-go-fast-with-spring-boot-3-1&quot;&gt;looking at some of its features here&lt;/a&gt; that you might like.&lt;/p&gt;
+&lt;p&gt;Friends, we&apos;ve got a ton of stuff to get into this week, so let&apos;s dive right into it!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2023/05/18/spring-boot-3-1-0-available-now&quot;&gt;Spring Boot 3.1 is now available!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;If you want to learn all about Spring Boot 3.1 (and why wouldn&apos;t you?), watch this &lt;a href=&quot;https://spring.io/blog/2023/05/18/spring-tips-go-fast-with-spring-boot-3-1&quot;&gt;Spring Tips installment: &lt;em&gt;Go fast with Spring Boot 3.1&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2023/05/18/spring-boot-3-0-7-available-now&quot;&gt;Spring Boot 3.0.7 available now, fixing CVE-2023-20883&lt;/a&gt;. There&apos;s also a &lt;a href=&quot;https://spring.io/blog/2023/05/18/spring-boot-2-7-12-available-now&quot;&gt;Spring Boot 2.7x line fix for the same issue&lt;/a&gt; and one for &lt;a href=&quot;https://spring.io/blog/2023/05/18/spring-boot-2-5-15-and-2-6-15-available-now&quot;&gt;Spring Boot 2.5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Java_(programming_language)&quot;&gt;Happy 28th birthday, Java!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tomorrow! I&apos;ll be doing a webinar with Marcus Hellberg over at Vaadin called &lt;a href=&quot;https://pages.vaadin.com/webinar-spring-boot-3&quot;&gt;&lt;em&gt;Bootiful development with Spring Boot 3 and Vaadin&lt;/em&gt;  &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Matt Raible&apos;s updated his article showing how to &lt;a href=&quot;https://auth0.com/blog/spring-boot-angular-crud/&quot;&gt;build a beautiful CRUD application with Spring Boot and Angular&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;In last week&apos;s installment of &lt;em&gt;A Bootiful Podcast&lt;/em&gt;, I talked &lt;a href=&quot;https://spring.io/blog/2023/05/18/a-bootiful-podcast-grubhubs-josh-burns-on-kotlin-spring-boot-and-more&quot;&gt;to Grubhub&apos;s John Burns&lt;/a&gt; about their use of Kotlin and Spring Boot&lt;/li&gt;
+&lt;li&gt;Our friends over at AtomicJar just posted a fantastic blog &lt;a href=&quot;https://www.atomicjar.com/2023/05/spring-boot-3-1-0-testcontainers-for-testing-and-local-development/&quot;&gt;looking at Testcontainers-local development with Spring Boot 3.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://feeds.feedblitz.com/~/742032836/0/baeldung~Custom-WebFlux-Exceptions-in-Spring-Boot&quot;&gt;Custom WebFlux Exceptions in Spring Boot 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.baeldung.com/spring-boot-hibernate-natural-ids&quot;&gt;Hibernate Natural IDs in Spring Boot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/rdehuyss/status/1660185787969798145?s=12&amp;#x26;t=n-UflcIbnx1lage-TBk0Cg&quot;&gt;Congrats Ronald Dehuysser on the new JobRunr release supporting Spring Boot 3.1.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://feeds.feedblitz.com/~/741336677/0/baeldung~Shared-Secret-Authentication-in-Spring-Boot-Application&quot;&gt;Shared Secret Authentication in Spring Boot Application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2023/05/18/spring-integration-6-1-goes-ga&quot;&gt;Spring Integration 6.1 goes GA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2023/05/17/spring-for-graphql-1-2-0-released&quot;&gt;Spring for GraphQL 1.2.0 released&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mon cher ami Mahmoud looks at the tantalyzing opportunity that is CRaC, which we just announced Spring Framework will support &lt;em&gt;soon&lt;/em&gt;: &lt;a href=&quot;https://aboullaite.me/what-the-crac/&quot;&gt;What the CRaC?!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/azure-compute-blog/scaling-azure-arm64-vms-with-microsoft-s-build-of-openjdk-a/ba-p/3820435?ocid=AIDN%2FA_TWITTER_oo_spl100004135832146&quot;&gt;Let&apos;s goooo! The Microsoft Build of OpenJDK has been optimized for #Azure Arm64 VMs. It takes advantage of CPU-specific features that improve scalability. Take a deep look at optimizations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Periodic remidner for those who don&apos;t know: &lt;a href=&quot;https://www.baeldung.com/java-migrate-8-to-17&quot;&gt;you should be using Java 17&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Not for nothing, but if you want some beautiful wallpapers, [Jetbrains has made their splash screen art available][&lt;a href=&quot;https://drive.google.com/drive/folders/1_d-zswKtsPOLkSKzYPX_Ch59VcOTHPgy&quot;&gt;https://drive.google.com/drive/folders/1_d-zswKtsPOLkSKzYPX_Ch59VcOTHPgy&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Spring Boot 3.1.0 available now]]></title><link>https://spring.io/blog/2023/05/18/spring-boot-3-1-0-available-now</link><guid isPermaLink="true">https://spring.io/blog/2023/05/18/spring-boot-3-1-0-available-now</guid><dc:creator><![CDATA[Scott Frederick]]></dc:creator><pubDate>Thu, 18 May 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the Spring Boot team and everyone that has contributed, I am pleased to announce that Spring Boot 3.1.0 has been released and is available from Maven Central.&lt;/p&gt;
 &lt;p&gt;This release adds a significant number of new features and improvements. For full &lt;a href=&quot;https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.1-Release-Notes#upgrading-from-spring-boot-30&quot;&gt;upgrade instructions&lt;/a&gt; and &lt;a href=&quot;https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.1-Release-Notes#new-and-noteworthy&quot;&gt;new and noteworthy&lt;/a&gt; features please see the &lt;a href=&quot;https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.1-Release-Notes&quot;&gt;release notes&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;What&apos;s new in 3.1&lt;/h2&gt;
 &lt;p&gt;The highlights of the 3.1 release include:&lt;/p&gt;
@@ -83,33 +300,4 @@ Plus we listen to community and make some possibly, but convenient for target pr
 &lt;p&gt;Now we have switched to version &lt;code&gt;6.2&lt;/code&gt; which is going to be based on Spring Framework &lt;code&gt;6.1&lt;/code&gt; with much more exciting features and improvements.&lt;/p&gt;
 &lt;p&gt;Cheers, &lt;br&gt;
 Artem&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://projects.spring.io/spring-integration/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-integration/issues&quot;&gt;GitHub Issues&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-integration/blob/master/CONTRIBUTING.adoc&quot;&gt;Contributing&lt;/a&gt; | &lt;a href=&quot;http://stackoverflow.com/questions/tagged/spring-integration&quot;&gt;Help&lt;/a&gt; | &lt;a href=&quot;https://gitter.im/spring-projects/spring-integration&quot;&gt;Chat&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Tips: go fast with Spring Boot 3.1]]></title><link>https://spring.io/blog/2023/05/18/spring-tips-go-fast-with-spring-boot-3-1</link><guid isPermaLink="true">https://spring.io/blog/2023/05/18/spring-tips-go-fast-with-spring-boot-3-1</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Thu, 18 May 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! In this installment, &lt;a href=&quot;https://youtube.com/@coffeesoftware&quot;&gt;Josh Long (@coffeesoftware)&lt;/a&gt; looks at how the &lt;a href=&quot;https://start.spring.io&quot;&gt;new Spring Boot 3.1 release&lt;/a&gt; delivers incredible efficiencies for both developers &lt;em&gt;and&lt;/em&gt;  machines.&lt;/p&gt;
-&lt;p&gt;#Java #springboot #Microservices #Testcontainers #GraalVM #Docker #DockerCompose #Devtools #SSL&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ykEK2xuJrN8&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[Spring Batch 5.0.2 available now!]]></title><link>https://spring.io/blog/2023/05/17/spring-batch-5-0-2-available-now</link><guid isPermaLink="true">https://spring.io/blog/2023/05/17/spring-batch-5-0-2-available-now</guid><dc:creator><![CDATA[Mahmoud Ben Hassine]]></dc:creator><pubDate>Wed, 17 May 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I am pleased to announce that Spring Batch 5.0.2 is now available from Maven Central.&lt;/p&gt;
-&lt;p&gt;This release resolves 25 issues, including bug fixes, enhancements, documentation updates and dependency updates. For more details about the changes, please refer to the &lt;a href=&quot;https://github.com/spring-projects/spring-batch/releases/tag/v5.0.2&quot;&gt;change log&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I would like to thank all contributors who had a role in this release!&lt;/p&gt;
-&lt;h3&gt;Feedback&lt;/h3&gt;
-&lt;p&gt;We look forward to your feedback on &lt;a href=&quot;https://github.com/spring-projects/spring-batch/issues&quot;&gt;Github Issues&lt;/a&gt;, &lt;a href=&quot;https://github.com/spring-projects/spring-batch/discussions&quot;&gt;Github Discussions&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/springbatch&quot;&gt;Twitter&lt;/a&gt;, and &lt;a href=&quot;https://stackoverflow.com/questions/tagged/spring-batch&quot;&gt;StackOverflow&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-batch&quot;&gt;Spring Batch Home&lt;/a&gt;|&lt;a href=&quot;https://github.com/spring-projects/spring-batch&quot;&gt;Source on Github&lt;/a&gt;|&lt;a href=&quot;https://docs.spring.io/spring-batch/docs/5.0.2/reference/html/index.html&quot;&gt;Reference documentation&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Authorization Server 1.1.0 available now]]></title><link>https://spring.io/blog/2023/05/17/spring-authorization-server-1-1-0-available-now</link><guid isPermaLink="true">https://spring.io/blog/2023/05/17/spring-authorization-server-1-1-0-available-now</guid><dc:creator><![CDATA[Joe Grandja]]></dc:creator><pubDate>Wed, 17 May 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, it is my pleasure to announce the release of Spring Authorization Server 1.1.0.&lt;/p&gt;
-&lt;p&gt;See the &lt;a href=&quot;https://github.com/spring-projects/spring-authorization-server/releases/tag/1.1.0&quot;&gt;release notes&lt;/a&gt; for complete details.&lt;/p&gt;
-&lt;p&gt;To get started using Spring Authorization Server, see the &lt;a href=&quot;https://docs.spring.io/spring-authorization-server/docs/current/reference/html/getting-started.html&quot;&gt;Getting Started&lt;/a&gt; chapter of the reference documentation and the &lt;a href=&quot;https://github.com/spring-projects/spring-authorization-server/tree/main/samples&quot;&gt;samples&lt;/a&gt; to become familiar with setup and configuration.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-authorization-server&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-authorization-server/issues&quot;&gt;GitHub Issues&lt;/a&gt; | &lt;a href=&quot;https://app.zenhub.com/workspaces/authorization-server-5e8f3182b5e8f5841bfc4902/board?repos=248032165&quot;&gt;ZenHub Board&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring for GraphQL 1.2.0 released]]></title><link>https://spring.io/blog/2023/05/17/spring-for-graphql-1-2-0-released</link><guid isPermaLink="true">https://spring.io/blog/2023/05/17/spring-for-graphql-1-2-0-released</guid><dc:creator><![CDATA[Brian Clozel]]></dc:creator><pubDate>Wed, 17 May 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I&apos;m pleased to announce that Spring for GraphQL 1.2.0 is now available on Maven Central. This version will ship with Spring Boot 3.1.0 later this week.&lt;/p&gt;
-&lt;p&gt;This is a new feature release for the Spring Boot 3.1.x generation. If you are still using Spring for GraphQL 1.0.x, please consider upgrading to Spring Boot 3.x as &lt;a href=&quot;https://spring.io/projects/spring-graphql#support&quot;&gt;OSS support will end next November&lt;/a&gt;. We have also raised the baseline version for GraphQL Java to 20.x and we will align with the &lt;a href=&quot;https://github.com/graphql-java/graphql-java/discussions/3138&quot;&gt;new GraphQL Java release policy&lt;/a&gt; from now on.&lt;/p&gt;
-&lt;p&gt;We have worked on the most popular issues from the community.&lt;/p&gt;
-&lt;h3&gt;Pagination Support&lt;/h3&gt;
-&lt;p&gt;This release provides first-class support for pagination, seamlessly adapting Spring Data pagination to the GraphQL &lt;a href=&quot;https://relay.dev/graphql/connections.htm&quot;&gt;Cursor Connection specification&lt;/a&gt;, including support for the latest and greatest &lt;a href=&quot;https://github.com/spring-projects/spring-data-commons/wiki/Spring-Data-2023.0-%28Ullman%29-Release-Notes#new-and-noteworthy&quot;&gt;Scroll API&lt;/a&gt; in Spring Data 2023.01. To learn more about the pagination support in Spring GraphQL 1.2, check out the project&apos;s &lt;a href=&quot;https://docs.spring.io/spring-graphql/docs/1.2.0/reference/html/#execution.pagination&quot;&gt;reference documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;h3&gt;Schema Mapping Checks&lt;/h3&gt;
-&lt;p&gt;If you are a GraphQL Java Kickstart user, you&apos;re probably missing the feature to check schema mappings on startup. We&apos;ve taken inspiration and created a similar feature to detect schema fields without a corresponding &lt;code&gt;DataFetcher&lt;/code&gt; or Java object property, and likewise to detect controller methods and &lt;code&gt;DataFetcher&lt;/code&gt; registrations to non-existing fields.&lt;/p&gt;
-&lt;p&gt;You can enable this through the &lt;code&gt;GraphQlSource.Builder&lt;/code&gt;, get access to a &lt;code&gt;SchemaReport&lt;/code&gt; on startup, and decide how to handle it. To learn more this, check out the project&apos;s &lt;a href=&quot;https://docs.spring.io/spring-graphql/docs/1.2.0/reference/html/#execution.graphqlsource.schema-mapping-inspection&quot;&gt;reference documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;h3&gt;Annotated Exception Handling&lt;/h3&gt;
-&lt;p&gt;Starting in this release, you can handle exceptions from &lt;code&gt;@SchemaMapping&lt;/code&gt; controller methods via &lt;code&gt;@GraphQlExceptionHandler&lt;/code&gt; annotated handler methods. Those can be declared and apply locally within the same &lt;code&gt;@Controller&lt;/code&gt;, or globally with &lt;code&gt;@ControllerAdvice&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;One benefit of this is the ability to also handle exceptions from &lt;code&gt;@SubscriptionMapping&lt;/code&gt; methods, including exceptions raised later after the &lt;code&gt;Publisher&lt;/code&gt; has started emitting data. To learn more, check out the project&apos;s &lt;a href=&quot;https://docs.spring.io/spring-graphql/docs/1.2.0/reference/html/#controllers.exception-handler&quot;&gt;reference documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;Other&lt;/h2&gt;
-&lt;p&gt;For a list of all enhancements, see the &lt;a href=&quot;https://github.com/spring-projects/spring-graphql/wiki/Spring-for-GraphQL-Versions&quot;&gt;Versions&lt;/a&gt; wiki page.&lt;/p&gt;
-&lt;h2&gt;In Conclusion&lt;/h2&gt;
-&lt;p&gt;We expect to have our next minor release 1.3 in about 6 months, later this year, and look forward to continued feedback and evolution of our programming model and features set.&lt;/p&gt;
-&lt;p&gt;We are also at &lt;a href=&quot;https://2023.springio.net/&quot;&gt;Spring I/O&lt;/a&gt; this week where we will present &lt;a href=&quot;https://2023.springio.net/sessions/observing-spring-for-graphql-in-action/&quot;&gt;Observing Spring for GraphQL in Action&lt;/a&gt;. For those attending the conference, we look forward to seeing you and chatting.&lt;/p&gt;
-&lt;p&gt;Last but not least, check out the newly published book &lt;a href=&quot;https://leanpub.com/graphql-java&quot;&gt;GraphQL with Java and Spring&lt;/a&gt; from our collaborators, Andi Marek and Donna Zhou.&lt;/p&gt;
-&lt;h3&gt;How to get involved?&lt;/h3&gt;
-&lt;p&gt;If you have general questions, please ask on &lt;a href=&quot;https://stackoverflow.com&quot;&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href=&quot;https://stackoverflow.com/tags/spring-graphql&quot;&gt;&lt;code&gt;spring-graphql&lt;/code&gt; tag&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-graphql/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-graphql&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-graphql/issues&quot;&gt;Issues&lt;/a&gt; | &lt;a href=&quot;https://docs.spring.io/spring-graphql/docs/1.2.0/reference/html&quot;&gt;Documentation&lt;/a&gt; | &lt;a href=&quot;https://stackoverflow.com/questions/tagged/spring-graphql&quot;&gt;Stack Overflow&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;&lt;a href=&quot;http://projects.spring.io/spring-integration/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-integration/issues&quot;&gt;GitHub Issues&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-integration/blob/master/CONTRIBUTING.adoc&quot;&gt;Contributing&lt;/a&gt; | &lt;a href=&quot;http://stackoverflow.com/questions/tagged/spring-integration&quot;&gt;Help&lt;/a&gt; | &lt;a href=&quot;https://gitter.im/spring-projects/spring-integration&quot;&gt;Chat&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
