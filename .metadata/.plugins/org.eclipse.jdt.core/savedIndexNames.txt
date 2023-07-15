@@ -1,15 +1,3 @@
 INDEX VERSION 1.131+D:\Ashish\Ashish Java\.metadata\.plugins\org.eclipse.jdt.core
-3589102951.index
-624956161.index
-3885093523.index
-3711136750.index
-811460298.index
-2952055616.index
-3941100097.index
-3789142911.index
-2472877146.index
-1421043395.index
-3192720220.index
 1602128660.index
-1770543516.index
-3178192435.index
+811460298.index

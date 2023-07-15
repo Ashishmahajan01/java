@@ -6,7 +6,7 @@ import java.util.Collections;
 
 public class PlusOne {
 	public static void main(String[] args) {
-		StringBuilder sc = new StringBuilde
+		StringBuilder sc = new StringBuilder();
 	}
 
 }
