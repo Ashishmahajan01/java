@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 13 Jul 2023 16:50:44 GMT</lastBuildDate><item><title><![CDATA[New in Spring 6.1: RestClient]]></title><link>https://spring.io/blog/2023/07/13/new-in-spring-6-1-restclient</link><guid isPermaLink="true">https://spring.io/blog/2023/07/13/new-in-spring-6-1-restclient</guid><dc:creator><![CDATA[Arjen Poutsma]]></dc:creator><pubDate>Thu, 13 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Spring Framework 6.1 M2 introduces the &lt;code&gt;RestClient&lt;/code&gt;, a new synchronous HTTP client.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 15 Jul 2023 12:17:18 GMT</lastBuildDate><item><title><![CDATA[Spring Data 2023.1.0-M1 released]]></title><link>https://spring.io/blog/2023/07/14/spring-data-2023-1-0-m1-released</link><guid isPermaLink="true">https://spring.io/blog/2023/07/14/spring-data-2023-1-0-m1-released</guid><dc:creator><![CDATA[Mark Paluch]]></dc:creator><pubDate>Fri, 14 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of everyone who has contributed, it is my pleasure to announce the first milestone release of Spring Data &lt;code&gt;2023.1&lt;/code&gt; being available from our repo.spring.io/milestone repository now. This release introduces the main themes for the &lt;code&gt;2023.1&lt;/code&gt; generation, with initial features for all of our themes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Embracing JDK 21 LTS&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/spring-projects/spring-data-commons/wiki/Spring-Data-2023.1-%28Vaughan%29-Release-Notes#kotlin-value-classes&quot;&gt;Support for Kotlin Value Classes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/spring-projects/spring-data-commons/wiki/Spring-Data-2023.1-%28Vaughan%29-Release-Notes#limit-for-repository-query-methods&quot;&gt;&lt;code&gt;Limit&lt;/code&gt; support for Repository Query Methods&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/spring-projects/spring-data-commons/wiki/Spring-Data-2023.1-%28Vaughan%29-Release-Notes#spring-data-relational---32&quot;&gt;Schema and SpEL support for Spring Data JDBC&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Check out our &lt;a href=&quot;https://github.com/spring-projects/spring-data-commons/wiki/Spring-Data-2023.1-%28Vaughan%29-Release-Notes&quot;&gt;release notes&lt;/a&gt; about the specific features across our protfolio and the individual modules. The upcoming Spring Boot 3.2 M1 milestone integrates with this milestone release. Please give &lt;code&gt;2023.1.0-M1&lt;/code&gt; an early try and let us know how it goes, helping us to shape it up towards general availability in November!&lt;/p&gt;
+&lt;p&gt;Finally, here are the links to the individual store modules&apos; artifacts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring Data Commons &lt;code&gt;3.2 M1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/commons/docs/3.2.0-M1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/commons/docs/3.2.0-M1/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-commons/releases/tag/3.2.0-M1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data JPA &lt;code&gt;3.2 M1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jpa/docs/3.2.0-M1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jpa/docs/3.2.0-M1/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-jpa/releases/tag/3.2.0-M1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data for Apache Cassandra &lt;code&gt;4.2 M1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/cassandra/docs/4.2.0-M1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/cassandra/docs/4.2.0-M1/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-cassandra/releases/tag/4.2.0-M1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data MongoDB &lt;code&gt;4.2 M1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/mongodb/docs/4.2.0-M1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/mongodb/docs/4.2.0-M1/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-mongodb/releases/tag/4.2.0-M1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data KeyValue &lt;code&gt;3.2 M1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/keyvalue/docs/3.2.0-M1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/keyvalue/docs/3.2.0-M1/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-keyvalue/releases/tag/3.2.0-M1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Neo4j &lt;code&gt;7.2 M1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/neo4j/docs/7.2.0-M1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/neo4j/docs/7.2.0-M1/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-neo4j/releases/tag/7.2.0-M1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data LDAP &lt;code&gt;3.2 M1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/ldap/docs/3.2.0-M1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/ldap/docs/3.2.0-M1/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-ldap/releases/tag/3.2.0-M1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data REST &lt;code&gt;4.2 M1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/rest/docs/4.2.0-M1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/rest/docs/4.2.0-M1/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-rest/releases/tag/4.2.0-M1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Redis &lt;code&gt;3.2 M1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/redis/docs/3.2.0-M1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/redis/docs/3.2.0-M1/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-redis/releases/tag/3.2.0-M1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Elasticsearch &lt;code&gt;5.2 M1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/elasticsearch/docs/5.2.0-M1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/elasticsearch/docs/5.2.0-M1/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-elasticsearch/releases/tag/5.2.0-M1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Couchbase &lt;code&gt;5.2 M1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/couchbase/docs/5.2.0-M1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/couchbase/docs/5.2.0-M1/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-couchbase/releases/tag/5.2.0-M1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Relational &lt;code&gt;3.2 M1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jdbc/docs/3.2.0-M1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jdbc/docs/3.2.0-M1/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-relational/releases/tag/3.2.0-M1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Spring HATEOAS 1.5.5, 2.0.5, 2.1.1 and 2.2 M1 released]]></title><link>https://spring.io/blog/2023/07/14/spring-hateoas-1-5-5-2-0-5-2-1-1-and-2-2-m1-released</link><guid isPermaLink="true">https://spring.io/blog/2023/07/14/spring-hateoas-1-5-5-2-0-5-2-1-1-and-2-2-m1-released</guid><dc:creator><![CDATA[Oliver Drotbohm]]></dc:creator><pubDate>Fri, 14 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I&apos;m happy to announce the releases of Spring HATEOAS &lt;a href=&quot;https://github.com/spring-projects/spring-hateoas/releases/tag/1.5.5&quot;&gt;1.5.5&lt;/a&gt;, &lt;a href=&quot;https://github.com/spring-projects/spring-hateoas/releases/tag/2.0.5&quot;&gt;2.0.5&lt;/a&gt;, &lt;a href=&quot;https://github.com/spring-projects/spring-hateoas/releases/tag/2.1.1&quot;&gt;2.1.1&lt;/a&gt; and &lt;a href=&quot;https://github.com/spring-projects/spring-hateoas/releases/tag/2.2.0-M1&quot;&gt;2.2 M1&lt;/a&gt;. The releases primarily contain a few bug fixes, dependency upgrades and a fix for &lt;a href=&quot;https://spring.io/security/cve-2023-34036&quot;&gt;CVE-2023-34036&lt;/a&gt; potentially and only affecting applications using Spring HATEOAS with Spring WebFlux. Make sure to consult &lt;a href=&quot;https://spring.io/security/cve-2023-34036&quot;&gt;the advisory&lt;/a&gt; and update to the latest versions.&lt;/p&gt;
+&lt;p&gt;The releases will be also included in the upcoming releases of Spring Boot 2.7.14, 3.0.9, 3.1.2 and 3.2 M1.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Data 2023.0.2, 2022.0.8, and 2021.2.14 available now]]></title><link>https://spring.io/blog/2023/07/14/spring-data-2023-0-2-2022-0-8-and-2021-2-14-available-now</link><guid isPermaLink="true">https://spring.io/blog/2023/07/14/spring-data-2023-0-2-2022-0-8-and-2021-2-14-available-now</guid><dc:creator><![CDATA[Mark Paluch]]></dc:creator><pubDate>Fri, 14 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team, I’m pleased to announce the availability of Spring Data &lt;code&gt;2023.0.2&lt;/code&gt;, &lt;code&gt;2022.0.8&lt;/code&gt;, and &lt;code&gt;2021.2.14&lt;/code&gt; service releases. These releases ship with selected improvements, including fixes for regressions.&lt;/p&gt;
+&lt;p&gt;The upcoming Spring Boot releases will pick up these for your convenience.&lt;/p&gt;
+&lt;h2&gt;2023.0.2&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring Data Commons &lt;code&gt;3.1.2&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/commons/docs/3.1.2/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/commons/docs/3.1.2/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-commons/releases/tag/3.1.2&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data JPA &lt;code&gt;3.1.2&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jpa/docs/3.1.2/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jpa/docs/3.1.2/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-jpa/releases/tag/3.1.2&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data for Apache Cassandra &lt;code&gt;4.1.2&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/cassandra/docs/4.1.2/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/cassandra/docs/4.1.2/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-cassandra/releases/tag/4.1.2&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data MongoDB &lt;code&gt;4.1.2&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/mongodb/docs/4.1.2/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/mongodb/docs/4.1.2/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-mongodb/releases/tag/4.1.2&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data KeyValue &lt;code&gt;3.1.2&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/keyvalue/docs/3.1.2/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/keyvalue/docs/3.1.2/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-keyvalue/releases/tag/3.1.2&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Neo4j &lt;code&gt;7.1.2&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/neo4j/docs/7.1.2/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/neo4j/docs/7.1.2/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-neo4j/releases/tag/7.1.2&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data LDAP &lt;code&gt;3.1.2&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/ldap/docs/3.1.2/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/ldap/docs/3.1.2/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-ldap/releases/tag/3.1.2&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data REST &lt;code&gt;4.1.2&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/rest/docs/4.1.2/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/rest/docs/4.1.2/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-rest/releases/tag/4.1.2&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Redis &lt;code&gt;3.1.2&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/redis/docs/3.1.2/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/redis/docs/3.1.2/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-redis/releases/tag/3.1.2&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Elasticsearch &lt;code&gt;5.1.2&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/elasticsearch/docs/5.1.2/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/elasticsearch/docs/5.1.2/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-elasticsearch/releases/tag/5.1.2&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Couchbase &lt;code&gt;5.1.2&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/couchbase/docs/5.1.2/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/couchbase/docs/5.1.2/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-couchbase/releases/tag/5.1.2&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Relational &lt;code&gt;3.1.2&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jdbc/docs/3.1.2/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jdbc/docs/3.1.2/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-relational/releases/tag/3.1.2&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;2022.0.8&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring Data Commons &lt;code&gt;3.0.8&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/commons/docs/3.0.8/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/commons/docs/3.0.8/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-commons/releases/tag/3.0.8&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data JPA &lt;code&gt;3.0.8&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jpa/docs/3.0.8/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jpa/docs/3.0.8/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-jpa/releases/tag/3.0.8&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data for Apache Cassandra &lt;code&gt;4.0.8&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/cassandra/docs/4.0.8/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/cassandra/docs/4.0.8/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-cassandra/releases/tag/4.0.8&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data MongoDB &lt;code&gt;4.0.8&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/mongodb/docs/4.0.8/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/mongodb/docs/4.0.8/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-mongodb/releases/tag/4.0.8&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data KeyValue &lt;code&gt;3.0.8&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/keyvalue/docs/3.0.8/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/keyvalue/docs/3.0.8/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-keyvalue/releases/tag/3.0.8&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Neo4j &lt;code&gt;7.0.8&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/neo4j/docs/7.0.8/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/neo4j/docs/7.0.8/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-neo4j/releases/tag/7.0.8&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data LDAP &lt;code&gt;3.0.8&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/ldap/docs/3.0.8/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/ldap/docs/3.0.8/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-ldap/releases/tag/3.0.8&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data REST &lt;code&gt;4.0.8&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/rest/docs/4.0.8/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/rest/docs/4.0.8/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-rest/releases/tag/4.0.8&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Redis &lt;code&gt;3.0.8&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/redis/docs/3.0.8/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/redis/docs/3.0.8/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-redis/releases/tag/3.0.8&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Elasticsearch &lt;code&gt;5.0.8&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/elasticsearch/docs/5.0.8/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/elasticsearch/docs/5.0.8/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-elasticsearch/releases/tag/5.0.8&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Couchbase &lt;code&gt;5.0.8&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/couchbase/docs/5.0.8/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/couchbase/docs/5.0.8/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-couchbase/releases/tag/5.0.8&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Relational &lt;code&gt;3.0.8&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jdbc/docs/3.0.8/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jdbc/docs/3.0.8/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-relational/releases/tag/3.0.8&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;2021.2.14&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring Data Commons &lt;code&gt;2.7.14&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/commons/docs/2.7.14/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/commons/docs/2.7.14/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-commons/releases/tag/2.7.14&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data JDBC &lt;code&gt;2.4.14&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jdbc/docs/2.4.14/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jdbc/docs/2.4.14/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-relational/releases/tag/2.4.14&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data JPA &lt;code&gt;2.7.14&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jpa/docs/2.7.14/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jpa/docs/2.7.14/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-jpa/releases/tag/2.7.14&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data for Apache Cassandra &lt;code&gt;3.4.14&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/cassandra/docs/3.4.14/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/cassandra/docs/3.4.14/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-cassandra/releases/tag/3.4.14&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data MongoDB &lt;code&gt;3.4.14&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/mongodb/docs/3.4.14/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/mongodb/docs/3.4.14/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-mongodb/releases/tag/3.4.14&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data KeyValue &lt;code&gt;2.7.14&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/keyvalue/docs/2.7.14/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/keyvalue/docs/2.7.14/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-keyvalue/releases/tag/2.7.14&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Neo4j &lt;code&gt;6.3.14&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/neo4j/docs/6.3.14/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/neo4j/docs/6.3.14/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-neo4j/releases/tag/6.3.14&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data R2DBC &lt;code&gt;1.5.14&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/r2dbc/docs/1.5.14/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/r2dbc/docs/1.5.14/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-r2dbc/releases/tag/1.5.14&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data for Apache Geode &lt;code&gt;2.7.14&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/geode/docs/2.7.14/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/geode/docs/2.7.14/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-geode/releases/tag/2.7.14&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data LDAP &lt;code&gt;2.7.14&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/ldap/docs/2.7.14/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/ldap/docs/2.7.14/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-ldap/releases/tag/2.7.14&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Envers &lt;code&gt;2.7.14&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/envers/docs/2.7.14/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/envers/docs/2.7.14/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-envers/releases/tag/2.7.14&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data REST &lt;code&gt;3.7.14&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/rest/docs/3.7.14/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/rest/docs/3.7.14/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-rest/releases/tag/3.7.14&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Redis &lt;code&gt;2.7.14&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/redis/docs/2.7.14/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/redis/docs/2.7.14/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-redis/releases/tag/2.7.14&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Elasticsearch &lt;code&gt;4.4.14&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/elasticsearch/docs/4.4.14/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/elasticsearch/docs/4.4.14/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-elasticsearch/releases/tag/4.4.14&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Couchbase &lt;code&gt;4.4.14&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/couchbase/docs/4.4.14/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/couchbase/docs/4.4.14/reference/html/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-couchbase/releases/tag/4.4.14&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[New in Spring 6.1: RestClient]]></title><link>https://spring.io/blog/2023/07/13/new-in-spring-6-1-restclient</link><guid isPermaLink="true">https://spring.io/blog/2023/07/13/new-in-spring-6-1-restclient</guid><dc:creator><![CDATA[Arjen Poutsma]]></dc:creator><pubDate>Thu, 13 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Spring Framework 6.1 M2 introduces the &lt;code&gt;RestClient&lt;/code&gt;, a new synchronous HTTP client.
 As the name suggests, &lt;code&gt;RestClient&lt;/code&gt; offers the fluent API of &lt;code&gt;WebClient&lt;/code&gt; with the infrastructure of &lt;code&gt;RestTemplate&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Fourteen years ago, when &lt;code&gt;RestTemplate&lt;/code&gt; was introduced in Spring Framework 3.0, we quickly discovered that exposing every capability of HTTP in a template-like class resulted in too many overloaded methods.
 In Spring Framework 5, we therefore used a fluent API for the reactive &lt;code&gt;WebClient&lt;/code&gt;.
@@ -140,411 +212,4 @@ Gábor Lipták for your help to make these updates available to the community!&lt;
 &lt;p&gt;Azure Spring Apps Enterprise delivers simplicity and productivity, and you can leverage Spring experts to make your projects even more successful. You can easily deploy your Spring and polyglot applications to the cloud and get them up and running in no time. It is a golden path to production that simplifies the deployment process and optimizes your resource usage.&lt;/p&gt;
 &lt;p&gt;And the best part? We are offering &lt;a href=&quot;https://aka.ms/costs-less&quot;&gt;FREE monthly grants&lt;/a&gt; on all tiers - 50 vCPU hours and 100 GB hours per tier. This is the number of FREE hours you get BEFORE any usage is billed, giving you a chance to test out the service without any financial charges.&lt;/p&gt;
 &lt;p&gt;So why wait? Take advantage of our FREE monthly grants and deploy your &lt;a href=&quot;https://aka.ms/Deploy-Spring&quot;&gt;first Spring app&lt;/a&gt; to Azure Spring Apps Enterprise today!&lt;/p&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/joshlong/blog-images/master/azure_spring_apps_enterprise_more_power_scalability_extended_spring_boot_support/4.jpg&quot;&gt;</content:encoded></item><item><title><![CDATA[This Week in Spring - July  11th, 2023]]></title><link>https://spring.io/blog/2023/07/11/this-week-in-spring-july-11th-2023</link><guid isPermaLink="true">https://spring.io/blog/2023/07/11/this-week-in-spring-july-11th-2023</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! I&apos;m in yummy, sunny Jakarta, Indonesia at the moment, preparing for a week of meetings and the &lt;a href=&quot;https://vmware.dekhatroops.com/edm/2023/13-07-2023/3231280985/index.html&quot;&gt;SpringOne Tour Indonesia event later this week&lt;/a&gt;. I&apos;ll also be speaking   &lt;a href=&quot;https://peatix.com/event/3638259/view&quot;&gt;in Kuala Lumpur, Malaysia on July 20th, 2023 &lt;/a&gt;. If you&apos;re in either of these regions, please come out and join me for what is sure to be a ton of fun on our journey to production!&lt;/p&gt;
-&lt;p&gt;Anyway, we&apos;ve got a ton of stuff to dive into this week, so let&apos;s get to it.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2023/07/06/a-bootiful-podcast-jetbrains-anton-arhipov-on-intellij-java-and-so-much-more&quot;&gt;A Bootiful Podcast: Jetbrains&apos; Anton Arhipov on IntelliJ, Java, and so much more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2023/07/05/active-health-check-strategies-with-spring-cloud-gateway&quot;&gt;Active Health Check strategies with Spring Cloud Gateway&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;A fluid, functional-style, non-reactive HTTP client for Spring: &lt;a href=&quot;https://github.com/spring-projects/spring-framework/commit/0820210c7c7dbc0a58730c09196b6b52c4732f17&quot;&gt;Introduce RestClient? spring-projects/spring-framework@0820210&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://piotrminkowski.com/2023/07/05/logging-in-spring-boot-with-loki/&quot;&gt;Logging in Spring Boot with Loki - Piotr&apos;s TechBlog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://link.medium.com/1xEGl3F3dBb&quot;&gt;How I deleted more than 1000 lines of code using Spring Retry&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://link.medium.com/b7H9Ge6tgBb&quot;&gt;ELK + Spring Boot: A Guide to Local Configuration&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://twitter.com/spencerbgibb/status/1677547823938641920?s=12&amp;#x26;t=n-UflcIbnx1lage-TBk0Cg&quot;&gt;the new Spring Cloud Gateway for Spring MVC.fn looks &lt;em&gt;amazing&lt;/em&gt;!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Interesting repository: &lt;a href=&quot;https://github.com/hardikSinghBehl/just-another-testcontainer-integration&quot;&gt;Backend application using Testcontainers for Integration Testing AWS S3, Kafka, MySQL, Egress calls and Redis.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://kubernetes.io/blog/2023/07/06/confidential-kubernetes/&quot;&gt;Blog: Confidential Kubernetes: Use Confidential Virtual Machines and Enclaves to improve your cluster security&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://ostara.dev/&quot;&gt;FOSS Admin desktop app for Spring Boot&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[A Bootiful Podcast: Jetbrains' Anton Arhipov on IntelliJ, Java, and so much more ]]></title><link>https://spring.io/blog/2023/07/06/a-bootiful-podcast-jetbrains-anton-arhipov-on-intellij-java-and-so-much-more</link><guid isPermaLink="true">https://spring.io/blog/2023/07/06/a-bootiful-podcast-jetbrains-anton-arhipov-on-intellij-java-and-so-much-more</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Thu, 06 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;a href=&quot;https://bootifulpodcast.fm&quot;&gt;&lt;em&gt;A Bootiful Podcast&lt;/em&gt;&lt;/a&gt;! This week  &lt;a href=&quot;https://youtube.com/@coffeesoftware&quot;&gt;Josh Long&lt;/a&gt; talks to &lt;a href=&quot;https://twitter.com/antonarhipov&quot;&gt;Jetbrain&apos;s developer advocate Anton Arhipov&lt;/a&gt;, recorded live from the amazing Spring IO show in Barcelona, Spain!&lt;/p&gt;
-&lt;iframe title=&quot;Jetbrains’ Anton Arhipov on IntelliJ, Java, and so much more &quot; allowtransparency=&quot;true&quot; height=&quot;150&quot; width=&quot;100%&quot; style=&quot;border: none; min-width: min(100%, 430px);height:150px;&quot; scrolling=&quot;no&quot; data-name=&quot;pb-iframe-player&quot; src=&quot;https://www.podbean.com/player-v2/?i=y8vqh-144da48-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;logo_link=episode_page&amp;btn-skin=7&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[Active Health Check strategies with Spring Cloud Gateway]]></title><link>https://spring.io/blog/2023/07/05/active-health-check-strategies-with-spring-cloud-gateway</link><guid isPermaLink="true">https://spring.io/blog/2023/07/05/active-health-check-strategies-with-spring-cloud-gateway</guid><dc:creator><![CDATA[Ignacio Lozano]]></dc:creator><pubDate>Wed, 05 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Active health check strategies with Spring Cloud Gateway&lt;/h1&gt;
-&lt;p&gt;Nowadays, applications are built as a collection of small independent upstream services. This accelerates development and allows modules to be focused on specific responsibilities, increasing their quality. This is one of the main advantages of using a microservice approach. However, jumping from one service to another can add extra latency, and this latency can be dramatically higher when the services are not responding.&lt;/p&gt;
-&lt;p&gt;If you run microservices, you want to prevent your upstream services from being called when they are not working properly. Even using a circuit breaker pattern can also generate a penalty in the response time. For this reason, it is sometimes better to actively check your upstream services to verify they are ready before they are needed.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A health check is a way to determine if a service can respond correctly according to its status, preventing timeouts and errors.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Passive health check&lt;/strong&gt; is done during request handling. If the service is finally unhealthy, the application will return a failure marking the endpoint unhealthy. It can add extra latency.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Active health check&lt;/strong&gt; will check and drop unhealthy services in the background before receiving the request. It doesn&apos;t add extra latency.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Last but not least, these features can be combined with a circuit breaker library to immediately fall back on an alternative endpoint without suffering the first miss penalty.&lt;/p&gt;
-&lt;p&gt;The goal is for routes to forward the requests to upstream services that are healthy by using a load balancer strategy:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;//images.ctfassets.net/mnrwi97vnhts/4X00jJADrVtK5bXFIGElTl/01ba8c47bf7599a9cab637333b96b672/active-hc-diagram.png&quot; alt=&quot;Active Health Check Diagram&quot;&gt;&lt;/p&gt;
-&lt;p&gt;This post is divided into two parts:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&quot;Spring features you need&quot; - describing which Spring’s features you need to get active health check.&lt;/li&gt;
-&lt;li&gt;&quot;Registering endpoints for your services&quot; - visiting some approaches for adding one or more endpoints to your routes.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1&gt;1. Spring features you need&lt;/h1&gt;
-&lt;p&gt;There are some features in Spring that can help you to get active health check&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Spring Cloud Load Balancer&lt;/strong&gt; (SLB) is a client-side load-balancer that allows balancing traffic between different upstream service endpoints. It is part of &lt;a href=&quot;https://spring.io/projects/spring-cloud&quot;&gt;Spring Cloud project&lt;/a&gt;, and is included in the spring-cloud-commons library (see the &lt;a href=&quot;https://docs.spring.io/spring-cloud-commons/docs/current/reference/html/#spring-cloud-loadbalancer&quot;&gt;SLB documentation&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;The client-side service discovery feature lets the client find and communicate with services without hard-coding the hostname and port. It is also included in the spring-cloud-commons library (see the &lt;a href=&quot;https://docs.spring.io/spring-cloud-commons/docs/current/reference/html/#discovery-client&quot;&gt;Service Discovery documentation&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Spring Cloud Gateway&lt;/strong&gt;
-&lt;a href=&quot;https://cloud.spring.io/spring-cloud-gateway&quot;&gt;Spring Cloud Gateway&lt;/a&gt; provides a library for building API gateways on top of Spring and Java.
-It supports the above features through the &lt;a href=&quot;https://cloud.spring.io/spring-cloud-gateway/2.1.x/multi/multi__global_filters.html#_loadbalancerclient_filter&quot;&gt;LoadBalancerClientFilter&lt;/a&gt;/&lt;a href=&quot;https://cloud.spring.io/spring-cloud-gateway/2.1.x/multi/multi__global_filters.html#reactive-loadbalancer-client-filter&quot;&gt;ReactiveLoadBalancerClientFilter&lt;/a&gt; global filters.
-In this post, you can see different ways to use one of those global filters.&lt;/p&gt;
-&lt;p&gt;First, though, let’s explore some of those features.&lt;/p&gt;
-&lt;h3&gt;Spring Cloud Load Balancer filter&lt;/h3&gt;
-&lt;p&gt;A global filter for load balancing is included in Spring Cloud and can be activated by using a special URI notation: &lt;code&gt;lb://your-service-name&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;spring:
- cloud:
-   gateway:
-     routes:
-       - id: myRoute
-         uri: lb://your-service-name
-         predicates:
-         - Path=/service/**
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The load balancer filter, &lt;a href=&quot;https://cloud.spring.io/spring-cloud-gateway/2.1.x/multi/multi__global_filters.html#reactive-loadbalancer-client-filter&quot;&gt;ReactiveLoadBalancerClientFilter&lt;/a&gt; (for reactive applications), will detect the URI and replace it with an available endpoint associated with &quot;your-service-name&quot;.&lt;/p&gt;
-&lt;p&gt;Take into account that you need to register &quot;your-service-name&quot; in the Service Discovery registry. We will see different ways you can do it in the following sections.&lt;/p&gt;
-&lt;h3&gt;Active health check&lt;/h3&gt;
-&lt;p&gt;By default, traffic is routed to upstream services, even if they are unhealthy.
-To prevent picking a bad one, you can enable the &lt;code&gt;health-check&lt;/code&gt; configuration provided by the Load Balancer Client from Spring Cloud:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;    spring:
-      cloud:  
-        loadbalancer:  
-          configurations: health-check
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;All the endpoints will be checked periodically by automatically using the Spring Boot Actuator health endpoint.
-You can also customize some options like &lt;code&gt;spring.cloud.loadbalancer.health-check.&amp;#x3C;your-service-name&gt;.path&lt;/code&gt; and &lt;code&gt;spring.cloud.loadbalancer.health-check.interval&lt;/code&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The default health check configuration checks the upstream service endpoints by using the &lt;code&gt;/actuator/health&lt;/code&gt; endpoint, which requires activating Spring Actuator in your upstream service.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;For more options, explore the &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-commons/blob/main/spring-cloud-commons/src/main/java/org/springframework/cloud/client/loadbalancer/LoadBalancerClientsProperties.java&quot;&gt;LoadBalancerClientsProperties&lt;/a&gt; and &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-commons/blob/main/spring-cloud-commons/src/main/java/org/springframework/cloud/client/loadbalancer/LoadBalancerProperties.java&quot;&gt;LoadBalancerProperties&lt;/a&gt; classes&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;There is a built-in feature in Spring Cloud Gateway that will deploy all the services available as routes. This post describes the opposite, so we are declaring routes that are load balanced, including active health check.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1&gt;2. Registering endpoints for your services&lt;/h1&gt;
-&lt;p&gt;In the previous section, you specified a load-balanced URI (&lt;code&gt;lb://your-service-name&lt;/code&gt;), but now you need to register the endpoints associated with the service name of the URI.
-We are visiting some approaches in the following sections.&lt;/p&gt;
-&lt;h2&gt;Static approach&lt;/h2&gt;
-&lt;p&gt;You can statically activate client load balancing by configuring the &lt;code&gt;spring.cloud.discovery.client.simple.instances&lt;/code&gt; property.
-It is a map whose key is the service name (used by the lb:// URI) and the value is an array of &lt;code&gt;org.springframework.cloud.client.ServiceInstance&lt;/code&gt; objects that point to the upstream services.&lt;/p&gt;
-&lt;p&gt;Some benefits of static load balancing include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Load balancing could distribute traffic between multiple instances, sharing any stress of the services and reducing the probability of crashing.&lt;/li&gt;
-&lt;li&gt;Fault tolerance.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The problem is that you are statically setting the upstream services in your configuration. If you need to change the list, you need to restart your application.&lt;/p&gt;
-&lt;p&gt;Example:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;spring:
-  cloud:
-    gateway:
-      routes:
-        - uri: lb://hello-service # Load Balancer URI handled by ReactiveLoadBalancerClientFilter
-          predicates:
-            - Path=/hello
-    loadbalancer:
-      configurations: health-check # Required for enabling SDC with health checks
-    discovery:
-      client:
-        simple: # SimpleDiscoveryClient to configure statically services
-          instances:
-            hello-service:
-              - secure: false
-                port: 8090
-                host: localhost
-                serviceId: hello-service
-                instanceId: hello-service-1
-              - secure: false
-                port: 8091
-                host: localhost
-                serviceId: hello-service
-                instanceId: hello-service-2
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3&gt;Trying out&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Run servers&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;# Run server 1
-SERVER_PORT=8090 ./gradlew :service:bootRun
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;# Run server 2
-SERVER_PORT=8091 ./gradlew :service:bootRun
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;2&quot;&gt;
-&lt;li&gt;Check &lt;a href=&quot;http://localhost:8090/actuator/health&quot;&gt;http://localhost:8090/actuator/health&lt;/a&gt; is &quot;UP&quot;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl http://localhost:8090/actuator/health
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt; {&quot;status&quot;:&quot;UP&quot;}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;3&quot;&gt;
-&lt;li&gt;Test &lt;a href=&quot;http://localhost:8080/hello&quot;&gt;http://localhost:8080/hello&lt;/a&gt; responds 200 OK&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl localhost:8090/hello
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;{ &quot;message&quot;: &quot;hello world!&quot;}%
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;4&quot;&gt;
-&lt;li&gt;Run Spring Cloud Gateway&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;./gradlew :1-service-disc-by-properties:bootRun
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;5&quot;&gt;
-&lt;li&gt;Test Spring Cloud Gateway balancer&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl localhost:8881/hello
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;{ &quot;message&quot;: &quot;hello world from port 8090!&quot;}%
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl localhost:8881/hello
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;{ &quot;message&quot;: &quot;hello world from port 8091!&quot;}%
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You could need to run multiple times the previous commands to get a response from a different server.&lt;/p&gt;
-&lt;ol start=&quot;6&quot;&gt;
-&lt;li&gt;Mark server 1 as unhealthy sending PUT request to &lt;a href=&quot;http://localhost:8090/status/false&quot;&gt;http://localhost:8090/status/false&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl localhost:8090/status/false -X PUT
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;7&quot;&gt;
-&lt;li&gt;Check &lt;a href=&quot;http://localhost:8090/actuator/status&quot;&gt;http://localhost:8090/actuator/status&lt;/a&gt; is &quot;DOWN&quot;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl http://localhost:8090/actuator/health
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;{&quot;status&quot;:&quot;DOWN&quot;}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;8&quot;&gt;
-&lt;li&gt;Run multiple times a GET request to &lt;a href=&quot;http://localhost:8881/hello&quot;&gt;http://localhost:8881/hello&lt;/a&gt; and see that you only get response from port 8091&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;You could receive one response on port 8090 owing the healthcheck haven&apos;t checked the endpoint when you send the request.
-The interval can be modified in the property spring.cloud.loadbalancer.health-check.interval &lt;code&gt;spring.cloud.loadbalancer.health-check.interval&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Also, you can see some messages that describe one of the upstream endpoints as not healthy, and therefore, it is unavailable.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;2023-05-08 14:59:53.151 DEBUG 9906 --- [ctor-http-nio-3] r.n.http.client.HttpClientOperations     : [12d42e83-77, L:/127.0.0.1:57439 - R:localhost/127.0.0.1:8090] Received response (auto-read:false) : RESPONSE(decodeResult: success, version: HTTP/1.1)
-HTTP/1.1 503 Service Unavailable
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl localhost:8881/hello
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;{ &quot;message&quot;: &quot;hello world from port 8091!&quot;}%
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;9&quot;&gt;
-&lt;li&gt;Mark server 2 as unhealthy sending PUT request to &lt;a href=&quot;http://localhost:8091/status/false&quot;&gt;http://localhost:8091/status/false&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl localhost:8091/status/false -X PUT
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;10&quot;&gt;
-&lt;li&gt;Run some GET requests to &lt;a href=&quot;http://localhost:8881/hello&quot;&gt;http://localhost:8881/hello&lt;/a&gt; and see that it responds &quot;503 Service Unavailable&quot;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl localhost:8881/hello
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;{&quot;timestamp&quot;:&quot;2023-05-08T13:07:48.704+00:00&quot;,&quot;path&quot;:&quot;/hello&quot;,&quot;status&quot;:503,&quot;error&quot;:&quot;Service Unavailable&quot;,&quot;requestId&quot;:&quot;6b5d6010-199&quot;}%
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;11&quot;&gt;
-&lt;li&gt;Stop all the servers started in the previous steps&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;Eureka integration (+complex, dynamic)&lt;/h2&gt;
-&lt;p&gt;Having a static configuration is not very flexible, but using Eureka as a service discovery can remove that drawback.&lt;/p&gt;
-&lt;p&gt;The cost is that you require a new component in your architecture which can increase your maintenance burden. This might not be an option for some clients.&lt;/p&gt;
-&lt;p&gt;The following example configures Eureka integration:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;    spring:
-      application:
-        name: scg-client-with-eureka
-      cloud:
-        loadbalancer:
-          configurations: health-check # Note: required for enabling SDC with health checks - remove this line if you want to reproduce issues because not using health checks in LB
-          # Note: LoadBalancerCacheProperties.ttl (or spring.cloud.loadbalancer.cache.ttl) is 35 by default - You will need to wait 35secs after an instance turns healthy
-        gateway:
-          httpclient:
-            wiretap: true
-          routes:
-            - uri: lb://hello-service
-              predicates:
-                - Path=/headers
-              filters:
-                - StripPrefix=0
-
-    eureka:
-      client:
-        webclient:
-          enabled: true
-        serviceUrl:
-          defaultZone: http://localhost:8761/eureka
-        fetchRegistry: true
-        registerWithEureka: false
-      instance:
-        preferIpAddress: true
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3&gt;Trying out&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Run Eureka Server&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;./gradlew :eureka-server:bootRun
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Wait until you can see Eureka server was started up&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;2023-06-26 12:51:46.901  INFO 88601 --- [       Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;2&quot;&gt;
-&lt;li&gt;Run servers including &lt;code&gt;eureka&lt;/code&gt; profile&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;# Run server 1
-SPRING_PROFILES_ACTIVE=eureka SERVER_PORT=8090 ./gradlew :service:bootRun
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;# Run server 2
-SPRING_PROFILES_ACTIVE=eureka SERVER_PORT=8091 ./gradlew :service:bootRun
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You should see that the sever instances were added into Eureka in the servers&apos; logs from step 1.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;2023-06-26 12:52:50.805  INFO 88601 --- [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/192.168.0.14:hello-service:8090 with status UP (replication=true)
-2023-06-26 12:53:29.127  INFO 88601 --- [nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/192.168.0.14:hello-service:8091 with status UP (replication=true)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;3&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;Go to &lt;a href=&quot;http://localhost:8761/&quot;&gt;http://localhost:8761/&lt;/a&gt; and check the servers are included  as instance of the application &lt;code&gt;hello-service&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Run Spring Cloud Gateway&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;SERVER_PORT=8883 ./gradlew :3-eureka-service-disc:bootRun
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;5.Test Spring Cloud Gateway balancer&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl localhost:8883/hello
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;{ &quot;message&quot;: &quot;hello world from port 8090!&quot;}%
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl localhost:8883/hello
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;{ &quot;message&quot;: &quot;hello world from port 8091!&quot;}%
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;6&quot;&gt;
-&lt;li&gt;Mark server 1 as unhealthy sending PUT request to &lt;a href=&quot;http://localhost:8090/status/false&quot;&gt;http://localhost:8090/status/false&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl localhost:8090/status/false -X PUT
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You should see in the Eureka dashboard that there is only one instance available, and you will see some logs messages complaining that service on port &lt;code&gt;8090&lt;/code&gt; is not available.
-The health check is not immediate, so you might need to wait a few seconds to see the instance marked as DOWN.&lt;/p&gt;
-&lt;ol start=&quot;7&quot;&gt;
-&lt;li&gt;Stop all the servers started in the previous steps&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;Custom Filter at Route level (dynamic approach)&lt;/h2&gt;
-&lt;p&gt;As you have seen, Spring Cloud Gateway offers an option for creating your own custom filters. It also lets you apply filters and change routes without restarting your gateway.&lt;/p&gt;
-&lt;p&gt;In this section, you can see a custom filter implementation that sets up load balancing and health checks of your services by using Spring Cloud Gateway route configuration.&lt;/p&gt;
-&lt;p&gt;If you already have a service discovery server in your project this might not be your best option. If not, this is a simple and cheap way to integrate two great features in your project.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;    spring:
-      application:
-        name: custom-service-disc
-      cloud:
-        loadbalancer:
-          configurations: health-check # Note: required for enabling SDC with health checks - remove this line if you want to reproduce issues because not using health checks in LB
-          # Note: LoadBalancerCacheProperties.ttl (or spring.cloud.loadbalancer.cache.ttl) is 35 by default - You will need to wait 35secs after an instance turns healthy
-        gateway:
-          routes:
-            - uri: lb://hello-service
-              id: load-balanced
-              predicates:
-                - Path=/load-balanced/**
-              filters:
-                - StripPrefix=1
-                - LoadBalancer=localhost:8090;localhost:8091;localhost:8092
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The new &lt;code&gt;LoadBalancer&lt;/code&gt; route filter lets you configure the upstream service endpoints associated with the &lt;code&gt;lb://hello-service&lt;/code&gt; load balancer URI:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;@Component
-public class LoadBalancerGatewayFilterFactory extends AbstractGatewayFilterFactory&amp;#x3C;LoadBalancerGatewayFilterFactory.MyConfiguration&gt; {
-
-	// ...
-
-	@Override
-	public GatewayFilter apply(MyConfiguration config) {
-		return (exchange, chain) -&gt; {
-			final Route route = exchange.getAttribute(GATEWAY_ROUTE_ATTR);
-			if (StringUtils.hasText(config.getInstances()) &amp;#x26;&amp;#x26; route.getUri().getScheme().equals(&quot;lb&quot;)) {
-				config.getServiceInstances(route.getUri().getHost()).forEach(discoveryClient::addInstance);
-			}
-
-			return chain.filter(exchange);
-		};
-	}
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If a route matches the &lt;code&gt;lb://&amp;#x3C;service-host&gt;&lt;/code&gt; pattern, the &lt;code&gt;LoadBalancerGatewayFilterFactory&lt;/code&gt; will associate all the upstream service endpoints coming from the filter configuration to the &lt;code&gt;service-host&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Under the hood, a new &lt;code&gt;ReactiveCustomDiscoveryClient&lt;/code&gt; discovery client implementation has been included to manage upstream service endpoints in our code.
-Spring detects such a bean and prioritizes it in the list of &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-commons/blob/main/spring-cloud-commons/src/main/java/org/springframework/cloud/client/discovery/DiscoveryClient.java&quot;&gt;DiscoveryClient&lt;/a&gt; used to determine available endpoints.&lt;/p&gt;
-&lt;h3&gt;Trying out&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Run servers&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;# Run server 1
-SERVER_PORT=8090 ./gradlew :service:bootRun
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;# Run server 2
-SERVER_PORT=8091 ./gradlew :service:bootRun
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;2&quot;&gt;
-&lt;li&gt;Check &lt;a href=&quot;http://localhost:8090/actuator/health&quot;&gt;http://localhost:8090/actuator/health&lt;/a&gt; is &quot;UP&quot;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl http://localhost:8090/actuator/health
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;{&quot;status&quot;:&quot;UP&quot;}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;3&quot;&gt;
-&lt;li&gt;Test &lt;a href=&quot;http://localhost:8080/hello&quot;&gt;http://localhost:8080/hello&lt;/a&gt; responds 200 OK&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl localhost:8090/hello
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;{ &quot;message&quot;: &quot;hello world!&quot;}%
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;4&quot;&gt;
-&lt;li&gt;Run Spring Cloud Gateway&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;SERVER_PORT=8882 ./gradlew :2-custom-service-disc:bootRun
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;5&quot;&gt;
-&lt;li&gt;Test Spring Cloud Gateway balancer&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl localhost:8882/hello
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;{ &quot;message&quot;: &quot;hello world from port 8090!&quot;}%
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl localhost:8882/hello
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;{ &quot;message&quot;: &quot;hello world from port 8091!&quot;}%
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You could need to run multiple times the previous commands to get a response from a different server.&lt;/p&gt;
-&lt;ol start=&quot;6&quot;&gt;
-&lt;li&gt;Mark server 1 as unhealthy sending PUT request to &lt;a href=&quot;http://localhost:8090/status/false&quot;&gt;http://localhost:8090/status/false&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl localhost:8090/status/false -X PUT
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;7&quot;&gt;
-&lt;li&gt;Check &lt;a href=&quot;http://localhost:8090/actuator/status&quot;&gt;http://localhost:8090/actuator/status&lt;/a&gt; is &quot;DOWN&quot;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl http://localhost:8090/actuator/health
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;{&quot;status&quot;:&quot;DOWN&quot;}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;8&quot;&gt;
-&lt;li&gt;Run multiple times a GET request to &lt;a href=&quot;http://localhost:8881/hello&quot;&gt;http://localhost:8881/hello&lt;/a&gt; and see that you only gets responds from port 8091&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;You could receive one response on port &lt;code&gt;8090&lt;/code&gt; owing to the healthcheck not having checked the endpoint when you send the request.
-The interval can be modified in the &lt;code&gt;spring.cloud.loadbalancer.health-check.interval&lt;/code&gt; property.&lt;/p&gt;
-&lt;p&gt;Also, you can see some messages that describe one of the upstream endpoints as not healthy, and, therefore, it is unavailable.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;2023-05-08 15:59:53.151 DEBUG 9906 --- [ctor-http-nio-2] r.n.http.client.HttpClientOperations     : [12d42e83-77, L:/127.0.0.1:57439 - R:localhost/127.0.0.1:8090] Received response (auto-read:false) : RESPONSE(decodeResult: success, version: HTTP/1.1)
-HTTP/1.1 503 Service Unavailable
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl localhost:8882/hello
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;{ &quot;message&quot;: &quot;hello world from port 8091!&quot;}%
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;9&quot;&gt;
-&lt;li&gt;Mark server 2 as unhealthy sending PUT request to &lt;a href=&quot;http://localhost:8091/status/false&quot;&gt;http://localhost:8091/status/false&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl localhost:8091/status/false -X PUT
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;10&quot;&gt;
-&lt;li&gt;Run some GET requests to &lt;a href=&quot;http://localhost:8881/hello&quot;&gt;http://localhost:8881/hello&lt;/a&gt; and see that it responds &quot;503 Service Unavailable&quot;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl localhost:8882/hello
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;{&quot;timestamp&quot;:&quot;2023-05-08T14:07:48.704+00:00&quot;,&quot;path&quot;:&quot;/hello&quot;,&quot;status&quot;:503,&quot;error&quot;:&quot;Service Unavailable&quot;,&quot;requestId&quot;:&quot;6b5d6010-199&quot;}%
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;11&quot;&gt;
-&lt;li&gt;Stop all the servers started in the previous steps&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3&gt;Next steps&lt;/h3&gt;
-&lt;p&gt;In this post, you have seen multiple ways to get load balancing and active health checks in your projects.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;From the static approach for basic projects or proof of concepts where the number of upstream services doesn’t change.&lt;/li&gt;
-&lt;li&gt;As a more dynamic approach, using Eureka or Spring Cloud Gateway filters.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;To sum up, you have also seen that the Spring Cloud Gateway approach is a great option if you do not need to add an extra component to your architecture.&lt;/p&gt;
-&lt;h1&gt;Additional Resources&lt;/h1&gt;
-&lt;p&gt;Want to learn more about Spring Cloud? Join us virtually at &lt;a href=&quot;https://spring.academy&quot;&gt;Spring Academy&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;Want to get &lt;strong&gt;active health check&lt;/strong&gt; just by adding a property in your route without getting your hands dirty?
-Take a look at our &lt;a href=&quot;https://docs.vmware.com/en/VMware-Spring-Cloud-Gateway-for-Kubernetes/index.html&quot;&gt;commercial platform with Kubernetes&lt;/a&gt; support.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;img src=&quot;https://raw.githubusercontent.com/joshlong/blog-images/master/azure_spring_apps_enterprise_more_power_scalability_extended_spring_boot_support/4.jpg&quot;&gt;</content:encoded></item></channel></rss>
