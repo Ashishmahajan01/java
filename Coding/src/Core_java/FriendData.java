@@ -46,7 +46,7 @@ public class FriendData {
 	// display logic
 	public static void displayAll() {
 		for (int i = 0; i < count; i++) {
-			System.out.println(frnd[i]);
+			//System.out.println(frnd[i]);
 		}
 	}
 
@@ -63,7 +63,7 @@ public class FriendData {
 		int cnt1 = 0;
 		for (int i = 0; i < count; i++) {
 			if (frnd[i].getName().equals(nm)) {
-				System.out.println(frnd[i]);
+				//System.out.println(frnd[i]);
 				cnt1++;
 			}
 		}
@@ -76,7 +76,7 @@ public class FriendData {
 		for (int i = 0; i < count; i++) {
 			int m = frnd[i].getDate().getMonth();
 			if (m == month) {
-				System.out.println(frnd[i]);
+				//System.out.println(frnd[i]);
 				cnt1++;
 			}
 		}
@@ -87,7 +87,7 @@ public class FriendData {
 		int cnt1 = 0;
 		for (int i = 0; i < count; i++) {
 			if (frnd[i].getAddress().equals(add)) {
-				System.out.println(frnd[i]);
+				//System.out.println(frnd[i]);
 				cnt1++;
 			}
 		}
@@ -99,7 +99,7 @@ public class FriendData {
 		int cnt1 = 0;
 		for (int i = 0; i < count; i++) {
 			if (frnd[i].getEmail().equals(email)) {
-				System.out.println(frnd[i]);
+				//System.out.println(frnd[i]);
 				cnt1++;
 			}
 		}

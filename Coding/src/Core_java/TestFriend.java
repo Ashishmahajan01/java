@@ -21,7 +21,7 @@ public class TestFriend {
 				int pid = sc.nextInt();
 				Friend p = FriendData.searchById(pid);
 				if (p != null) {
-					System.out.println(p);
+					//System.out.println(p);
 				} else {
 					System.out.println("Not found");
 				}
