@@ -22,8 +22,7 @@ public class Class1 {
           al.add(1,"B");
           System.out.println(al);
           
-          
-          
+    
           
           HashMap<Integer,String> hmap =new HashMap<>();
           hmap.put(1, "Ashish");
